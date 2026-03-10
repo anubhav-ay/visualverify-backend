@@ -1,0 +1,29 @@
+[
+  {
+    "_comment": "Each entry represents a known misinformation image.",
+    "_comment2": "Populate 'embedding' with a real 512-dim CLIP vector for production use.",
+    "_comment3": "Generate phash with: str(imagehash.phash(Image.open('path/to/img.jpg')))",
+    "id": "misinfo_001",
+    "source": "snopes.com/fact-check/example-debunked",
+    "label": "MISINFORMATION",
+    "description": "Fabricated protest photo with altered crowd size",
+    "phash": "f8c0e0a0b0c0d0e0",
+    "embedding": []
+  },
+  {
+    "id": "misinfo_002",
+    "source": "factcheck.org/2023/example",
+    "label": "MISINFORMATION",
+    "description": "Out-of-context disaster image attributed to wrong event",
+    "phash": "a0b0c0d0e0f0a0b0",
+    "embedding": []
+  },
+  {
+    "id": "misinfo_003",
+    "source": "reuters.com/fact-check/example",
+    "label": "MISLEADING",
+    "description": "AI-generated celebrity deepfake image",
+    "phash": "c0d0e0f0a0b0c0d0",
+    "embedding": []
+  }
+]
